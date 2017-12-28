@@ -8,6 +8,7 @@ CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = [
     'gtfsdb',
+    'requests',
     'ott.utils',
     'ott.gbfsdb',
     'simplejson',
