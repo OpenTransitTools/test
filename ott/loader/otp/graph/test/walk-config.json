@@ -7,11 +7,6 @@
     },
     {
       "key": "sidewalk",
-      "value": "no",
-      "factor": 3.0
-    },
-    {
-      "key": "sidewalk",
       "value": "both",
       "factor": 0.85
     }
