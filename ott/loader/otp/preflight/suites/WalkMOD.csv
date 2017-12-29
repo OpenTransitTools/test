@@ -1,2 +1,2 @@
 Description/notes,From,To,Mode,Time,Service,Optimize,Max dist,Arrive by,Depart by,Expected output,Expected number of legs,Expected trip duration,Expected trip distance,Passes?
-"XXX","45.51817,-122.66579","45.51717,-122.6485",WALK,,,,,,,Water Ave.*Morrison St,,,,
+"From Stop #11923 to #2759 won't use SE 76th if sidewalks are considered.","11923::45.4975,-122.5862","2759::45.4902,-122.5845",WALK,,,,,,,SE 74th.*SE Center.*SE 75th,,,,
