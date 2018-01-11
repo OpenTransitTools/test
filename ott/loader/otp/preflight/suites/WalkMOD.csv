@@ -1,2 +1,3 @@
 Description/notes,From,To,Mode,Time,Service,Optimize,Max dist,Arrive by,Depart by,Expected output,Expected number of legs,Expected trip duration,Expected trip distance,Passes?
-"From Stop #11923 to #2759 won't use SE 76th if sidewalks are considered.","11923::45.4975,-122.5862","2759::45.4902,-122.5845",WALK,,,,,,,SE Powell.*SE 74th.*SE Center.*SE 75th.*SE Holgate,,,,
+"13767 NE SAN RAFAEL ST to Stop #2379 won't use NE 137th if sidewalks are considered.","13767_NE_SAN_RAFAEL_ST::45.537550,-122.520780","2379::45.533676,-122.522470",WALK,,,,,,,NE San Rafael.*NE 138th.*NE Halsey,,,,
+"This trip should never use the detour via 124th to a further stop now that foot=yes has been added to override highway=trunk","Pacific_Hwy__AND__SW_130th_Ave::45.386230,-122.810820","Union_Station::45.526733,-122.675606",,,,,,,,^(?!.*SW 124th),,,,
