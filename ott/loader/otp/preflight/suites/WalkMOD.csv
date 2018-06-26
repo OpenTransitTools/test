@@ -1,3 +1,6 @@
 Description/notes,From,To,Mode,Time,Service,Optimize,Max dist,Arrive by,Depart by,Expected output,Expected number of legs,Expected trip duration,Expected trip distance,Passes?
-"13767 NE SAN RAFAEL ST to Stop #2379 won't use NE 137th if sidewalks are considered.","13767_NE_SAN_RAFAEL_ST::45.537550,-122.520780","2379::45.533676,-122.522470",WALK,,,,,,,NE San Rafael.*NE 138th.*NE Halsey,,,,
 "This trip should never use the detour via 124th to a further stop now that foot=yes has been added to override highway=trunk","Pacific_Hwy__AND__SW_130th_Ave::45.386230,-122.810820","Union_Station::45.526733,-122.675606",,,,,,,,^(?!.*SW 124th),,,,
+"Should go north on 102nd rather than 105th if sidewalks are considered","45.555386,-122.554730","45.559208,-122.558784",WALK,,,,,,,Prescott.*102nd,,,,
+"This trip should never use Hassalo if sidewalks are considered","45.532104,-122.606285","45.528606,-122.602360",,,,,,,,^(?!.*Hassalo),,,,
+"This trip should go north on 20th not 18th if sidewalks are considered","45.481670,-122.645430","45.482353,-122.647480",,,,,,,,20th.*Ellis,,,,
+"This trip should favor quiter sidestreet instead of MLK","45.554585,-122.662636","45.553090,-122.661667",,,,,,,,Garfield.*Mason.*Martin,,,,

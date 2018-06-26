@@ -3,22 +3,22 @@
     {
       "key": "highway",
       "value": "primary",
-      "factor": 1.5
+      "factor": 1.4 
     },
     {
       "key": "sidewalk",
       "value": "both",
-      "factor": 0.5
-    },
-    {
-      "key": "footway",
-      "value": "sidewalk",
-      "factor": 2 
+      "factor": 0.8  
     },
     {
       "key": "sidewalk",
-      "value": "no",
-      "factor": 1.5 
-    }
+      "value": "right",
+      "factor": 0.95 
+    },
+    {
+      "key": "sidewalk",
+      "value": "left",
+      "factor": 0.95
+    },
   ]
 }
