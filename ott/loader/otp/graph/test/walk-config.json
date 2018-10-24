@@ -1,24 +1,84 @@
 {
-  "rules": [
-    {
-      "key": "highway",
-      "value": "primary",
-      "factor": 1.4 
-    },
-    {
-      "key": "sidewalk",
-      "value": "both",
-      "factor": 0.8  
-    },
-    {
-      "key": "sidewalk",
-      "value": "right",
-      "factor": 0.95 
-    },
-    {
-      "key": "sidewalk",
-      "value": "left",
-      "factor": 0.95
-    },
-  ]
+    "rules": [{
+        "type": "equal",
+        "key": "footway",
+        "value": "sidewalk",
+        "factor": 1.1
+    }, {
+        "type": "equal",
+        "key": "highway",
+        "value": "service",
+        "factor": 1.2
+    }, {
+        "type": "absent",
+        "key": "name",
+        "factor": 1.4
+    }, {
+        "type": "equal",
+        "key": "highway",
+        "value": "trunk",
+        "factor": 1.4
+    }, {
+        "type": "equal",
+        "key": "highway",
+        "value": "trunk_link",
+        "factor": 1.4
+    }, {
+        "type": "equal",
+        "key": "highway",
+        "value": "primary",
+        "factor": 1.3
+    }, {
+        "type": "equal",
+        "key": "highway",
+        "value": "primary_link",
+        "factor": 1.3
+    }, {
+        "type": "equal",
+        "key": "highway",
+        "value": "secondary",
+        "factor": 1.2
+    }, {
+        "type": "equal",
+        "key": "highway",
+        "value": "secondary_link",
+        "factor": 1.2
+    }, {
+        "type": "equal",
+        "key": "highway",
+        "value": "tertiary",
+        "factor": 1.1
+    }, {
+        "type": "equal",
+        "key": "highway",
+        "value": "tertiary_link",
+        "factor": 1.1
+    }, {
+        "type": "equal",
+        "key": "lanes",
+        "value": "5",
+        "factor": 1.1
+    }, {
+        "type": "equal",
+        "key": "sidewalk",
+        "value": "both",
+        "factor": 0.8
+    }, {
+        "type": "equal",
+        "key": "sidewalk",
+        "value": "left",
+        "factor": 0.9
+    }, {
+        "type": "equal",
+        "key": "sidewalk",
+        "value": "right",
+        "factor": 0.9
+    }, {
+        "type": "equal",
+        "key": "surface",
+        "value": "unpaved",
+        "factor": 1.4
+    }]
 }
+
+
